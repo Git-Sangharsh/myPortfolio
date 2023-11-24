@@ -1,7 +1,8 @@
 import React from "react";
 import "./Nav.css";
 import { Link } from "react-scroll";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
+import logo from '../assets/mainlogo2.jpg'
 const Navbar = () => {
   return (
     <div className="nav">

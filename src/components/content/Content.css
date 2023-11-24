@@ -4,12 +4,14 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  background-color: #101820;
-  /* border-bottom: 3px solid white; */
+  /* background-color: #101820; */
+  border-bottom: 3px solid whitesmoke;
   background-image: url(../assets/logo4.jpg);
-  /* background-image: url(../assets/logo3.jpg); */
+  background-image: url(../assets/logo3.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
+
 
 .hello-div {
   color: white;

@@ -4,11 +4,13 @@
   justify-content: center;
   flex-direction: column;
   padding: 70px 0px;
-  background-color: #101820;
+  /* background-color: #101820; */
   /* background-color: #1A1A1A; */
-  margin-top: 100px;
+  padding-top: 100px;
   border-bottom: 3px solid white;
-
+  /* background-image: url(../assets/mainlogo.jpg);
+  background-position: center; */
+  background-color: black;
 }
 
 .main-skill-header {
