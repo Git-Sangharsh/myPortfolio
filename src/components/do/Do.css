@@ -7,6 +7,7 @@
   background-image: url(../assets/mainlogo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-position: center; */
   border-bottom: 3px solid whitesmoke;
 }
 
@@ -76,6 +77,9 @@
 }
 
 @media (max-width: 446px) {
+  .do {
+    background-position: center;
+  }
   .common-do > img {
     width: 40px;
     padding: 5px 10px 5px 20px;
@@ -94,8 +98,11 @@
 }
 
 @media (max-width: 320px) {
+  .do {
+    background-position: center;
+  }
 
-  .common-do{
+  .common-do {
     width: 90%;
   }
 
@@ -114,8 +121,7 @@
     padding: 0px 10px;
     font-size: 12px;
   }
-  .do > h1{
+  .do > h1 {
     font-size: 25px;
   }
 }
-
