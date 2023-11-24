@@ -58,21 +58,23 @@ const Skills = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
           className="skills-2 common-skills"
         >
-          <img src={smartBrain} className="common-skill-img" alt="" />
-          <h1 className="skills-header">SmartBrain</h1>
-          {/* <h4>
+          <a href="https://github.com/Git-Sangharsh/mainSmart-Brain">
+            <img src={smartBrain} className="common-skill-img" alt="" />
+            <h1 className="skills-header">SmartBrain</h1>
+            {/* <h4>
             Designed and developed For The Detect Face From The Images Using
             artificial intelligence With Clarifai Api & React.js. Implemented
             responsive design using Bootstrap and added custom styles with
             Tachyons. Integrated a SignIn & Signup form with Node..
           </h4> */}
-          <div className="need-skills">
-            <h4>React</h4>
-            <h4>Express</h4>
-            <h4>Node</h4>
-            <h4>PostgresSql</h4>
-            <h4>bCrypt</h4>
-          </div>
+            <div className="need-skills">
+              <h4>React</h4>
+              <h4>Express</h4>
+              <h4>Node</h4>
+              <h4>PostgresSql</h4>
+              <h4>bCrypt</h4>
+            </div>
+          </a>
         </motion.div>
         <motion.div
           className="skills-3 common-skills"
