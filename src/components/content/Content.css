@@ -1,0 +1,203 @@
+.content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  background-color: #101820;
+    border-bottom: 3px solid white;
+}
+
+.hello-div{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-self: start;
+    padding: 0;
+    margin: 0;
+}
+.name-holder{
+    display: flex;
+    gap: 20px;
+}
+.iam{
+    font-size: 60px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.namess{
+    color: yellow;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.web{
+    font-size: 30px;
+    color: aliceblue;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.objective{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+}
+
+@media (max-width: 798px){
+    .content-wrapper{
+        height: 100vh;
+    }
+
+    .name-holder{
+        gap: 8px;
+    }
+    .iam{
+        font-size: 40px;
+    }
+
+    .namess{
+        color: yellow;
+        font-size: 40px;
+    }
+
+    .web{
+        font-size: 25px;
+        margin: 0 0 10px 0;
+    }
+
+    .objective{
+        font-size: 10px;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        text-align: center;
+        width: 80%;
+    }
+}
+@media (max-width: 602px){
+    .content-wrapper{
+        height: 100vh;
+    }
+
+    .name-holder{
+        gap: 8px;
+    }
+    .iam{
+        font-size: 20px;
+    }
+    .namess{
+        color: yellow;
+        font-size: 20px;
+    }
+
+    .web{
+        font-size: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .objective{
+        font-size: 10px;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px){
+
+    .iam{
+        font-size: 16px;
+    }
+    .namess{
+        color: yellow;
+        font-size: 16px;
+    }
+
+    .name-holder{
+        display: flex;
+        gap: 10px;
+    }
+    .web{
+        font-size: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .objective{
+        font-size: 10px;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@media (max-width: 320px){
+    .content-wrapper{
+        height: 100vh;
+    }
+
+    .name-holder{
+        gap: 8px;
+    }
+    .iam{
+        font-size: 20px;
+    }
+    .namess{
+        color: yellow;
+        font-size: 20px;
+    }
+
+    .web{
+        font-size: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .objective{
+        font-size: 10px;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@media (max-width: 266px){
+
+    .iam{
+        font-size: 16px;
+    }
+    .namess{
+        color: yellow;
+        font-size: 16px;
+    }
+
+    .web{
+        font-size: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .objective{
+        font-size: 10px;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        text-align: center;
+        width: 80%;
+    }
+}

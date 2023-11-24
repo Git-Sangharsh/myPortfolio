@@ -1,0 +1,118 @@
+.do {
+  text-align: center;
+  z-index: 99;
+  padding-top: 70px;
+  background-color: #101820;
+  border-bottom: 3px solid white;
+
+}
+
+.do > h1 {
+  color: yellow;
+  font-size: 50px;
+}
+.do-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.common-do {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #323232;
+  border-radius: 9px;
+  margin: 10px;
+  width: 70%;
+  padding: 20px 0px;
+}
+
+.common-do > img {
+  width: 50px;
+  padding: 5px 10px 5px 20px;
+}
+
+.another-div {
+  text-align: start;
+}
+
+.another-div > h3 {
+  color: aliceblue;
+  padding: 0px 10px;
+  margin: 0;
+  text-align: start;
+  font-size: 25px;
+}
+
+.another-div > h1 {
+  color: aliceblue;
+  padding: 0px 10px;
+  margin: 0;
+  text-align: start;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media (max-width: 554px) {
+  .common-do > img {
+    width: 40px;
+    padding: 5px 10px 5px 20px;
+  }
+
+  .another-div > h3 {
+    padding: 0px 10px;
+    text-align: start;
+    font-size: 20px;
+  }
+
+  .another-div > h1 {
+    padding: 0px 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 446px) {
+  .common-do > img {
+    width: 40px;
+    padding: 5px 10px 5px 20px;
+  }
+
+  .another-div > h3 {
+    padding: 0px 10px;
+    text-align: start;
+    font-size: 20px;
+  }
+
+  .another-div > h1 {
+    padding: 0px 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .common-do{
+    width: 90%;
+  }
+
+  .common-do > img {
+    width: 40px;
+    padding: 5px 10px 5px 20px;
+  }
+
+  .another-div > h3 {
+    padding: 0px 10px;
+    text-align: start;
+    font-size: 16px;
+  }
+
+  .another-div > h1 {
+    padding: 0px 10px;
+    font-size: 12px;
+  }
+  .do > h1{
+    font-size: 25px;
+  }
+}
+

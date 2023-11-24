@@ -1,0 +1,122 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 0px 20px;
+  border-radius: 25px;
+  margin: 20px 0px;
+  /* remember to remove this */
+  background-color: rgba(255, 255, 255, 0.104);
+  box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.226);
+  position: fixed;
+  top: 0;
+  backdrop-filter: blur(10px); /* Use blur for backdrop-filter */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.226);
+  z-index: 100; /* Ensure the navigation bar is on top of other elements */
+}
+
+.logo {
+  width: 50px;
+  border-radius: 60%;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.headers {
+  color: whitesmoke;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.border {
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+
+@media (max-width: 568px){
+  .nav-wrapper{
+    width: 85%;
+  }
+  .headers{
+    font-size: 14px;
+  }
+
+  .nav-right{
+    gap: 10px;
+  }
+
+  .border{
+    padding: 5px 10px;
+  }
+
+  .logo{
+    width: 30px;
+  }
+}
+
+@media (max-width: 425px){
+  .nav-wrapper{
+    width: 80%;
+  }
+  .headers{
+    font-size: 10px;
+  }
+
+  .logo{
+    width: 30px;
+  }
+}
+
+
+@media (max-width: 264px){
+  .nav-wrapper{
+    width: 85%;
+  padding: 0px 10px;
+
+  }
+  .headers{
+    font-size: 7px;
+  }
+
+  .nav-right{
+    gap: 10px;
+  }
+
+  .border{
+    padding: 5px 5px;
+  }
+
+  .logo{
+    width: 20px;
+  }
+}
+/* .headers::after{
+  content: '';
+  position: absolute;
+  background-color: yellow;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.headers:hover::after{
+  width: 100%;
+} */

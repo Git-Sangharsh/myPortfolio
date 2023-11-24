@@ -1,0 +1,122 @@
+#Contact {
+  min-height: calc(100vh - 4rem);
+  text-align: center;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contactPageTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: yellow; /* Set the color for the title */
+}
+
+.contactDesc {
+  padding: 1rem;
+  font-size: 20px;
+
+  font-weight: bolder;
+  color: white; /* Set the color for the description */
+}
+
+.contactForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+/* Style the form input fields */
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+.submitBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the social media links */
+.links {
+  margin-top: 20px;
+}
+
+.link {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.name {
+  width: 100%;
+}
+
+
+/* Apply styles to the placeholder text */
+.name::placeholder {
+  font-weight: bolder;
+}
+
+.email::placeholder {
+  font-weight: bolder;
+}
+
+/* Apply styles to the placeholder text in the textarea */
+.msg::placeholder {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.to-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+  .name,
+.email,
+.msg {
+  width: 50vw;
+}
+}
+
+@media (max-width: 425px){
+  .contactPageTitle{
+    font-size: 24px;
+  }
+  .contactDesc{
+    font-size: 16px;
+  }
+  .name,
+.email,
+.msg {
+  width: 70vw;
+}
+
+}
