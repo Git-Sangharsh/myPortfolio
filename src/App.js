@@ -7,10 +7,9 @@ import Skills from "./components/skills/Skills";
 import Do from "./components/do/Do";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" >
       <Helmet>
         <title>Sangharsh Portfolio</title>
       </Helmet>

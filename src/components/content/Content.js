@@ -1,11 +1,16 @@
 import React from "react";
 import "./Content.css";
 import { motion } from "framer-motion";
+// import logo69 from "../assets/logo3.jpg";
 
 const Content = () => {
   return (
     <div className="content">
-      <div className="content-wrapper">
+      <div
+        className="content-wrapper"
+      //   style={{ backgroundImage: `url(${logo69})`,
+      // backgroundSize:'40%' }}
+      >
         <motion.h3
           className="hello-div"
           initial={{ opacity: 0 }}
