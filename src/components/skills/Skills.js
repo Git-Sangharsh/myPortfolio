@@ -34,21 +34,23 @@ const Skills = () => {
           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
-          <img src={nike} alt="" className="common-skill-img" />
-          <h1 className="skills-header">Nike Clone</h1>
-          {/* <h4>
+          <a href="https://nike-frontend69.onrender.com/">
+            <img src={nike} alt="" className="common-skill-img" />
+            <h1 className="skills-header">Nike Clone</h1>
+            {/* <h4>
             Created a full-stack web application, combining React for the
             frontend and Express.js with MongoDB for the backend. Implemented
             user authentication by creating signup and signin forms. Utilized
             the bcrypt password hashing algorithm with 10 salt rounds & secure..
           </h4> */}
-          <div className="need-skills">
-            <h4>React</h4>
-            <h4>Express</h4>
-            <h4>Node</h4>
-            <h4>MongoDb</h4>
-            <h4>bCrypt</h4>
-          </div>
+            <div className="need-skills">
+              <h4>React</h4>
+              <h4>Express</h4>
+              <h4>Node</h4>
+              <h4>MongoDb</h4>
+              <h4>bCrypt</h4>
+            </div>
+          </a>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: -20, filter: "blur(5px)" }}
@@ -78,17 +80,19 @@ const Skills = () => {
           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
-          <img src={apple} alt="" className="common-skill-img" />
-          <h1 className="skills-header">Apple Clone</h1>
-          {/* <h4>
+          <a href="https://apple-clone-wine.vercel.app/">
+            <img src={apple} alt="" className="common-skill-img" />
+            <h1 className="skills-header">Apple Clone</h1>
+            {/* <h4>
             Built a Apple Website Clone Using react js & css. Website clone is
             responsive, ensuring a seamless user experience across various
             devices and screen sizes. creating slider using
             react-responsive-carousel from npm package ...
           </h4> */}
-          <div className="need-skills">
-            <h4>React</h4>
-          </div>
+            <div className="need-skills">
+              <h4>React</h4>
+            </div>
+          </a>
         </motion.div>
       </motion.div>
     </div>

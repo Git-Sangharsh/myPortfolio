@@ -4,6 +4,7 @@ import InstagramIcon from "../assets/instagram.png";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { Element } from "react-scroll";
+import github from "../assets/github.png";
 
 const Contact = () => {
   const form = useRef();
@@ -61,6 +62,14 @@ const Contact = () => {
             <div className="links">
               <a href="https://instagram.com/ig_sangharsh?igshid=YzAwZjE1ZTI0Zg==">
                 <img src={InstagramIcon} alt="instagram" className="link" />
+              </a>
+              <a href="https://github.com/Git-Sangharsh">
+                <img
+                  src={github}
+                  alt="instagram"
+                  className="link"
+                  style={{ borderRadius: "100px" }}
+                />
               </a>
               {/* <a href="https://twitter.com/HiteshRam666"><img src={TwitterIcon} alt="twitter" className="link" /></a> */}
             </div>

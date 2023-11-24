@@ -12,7 +12,9 @@
   background-position: center; */
   background-color: black;
 }
-
+a{
+  text-decoration: none;
+}
 .main-skill-header {
   color: yellow;
   font-size: 50px;

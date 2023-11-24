@@ -39,14 +39,24 @@
   color: whitesmoke;
   font-size: 20px;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
+.headers:hover {
+  color: yellow;
+  scale: 1.1;
+}
 
 .border {
   border: 1px solid whitesmoke;
   border-radius: 25px;
   padding: 5px 15px;
   font-size: 20px;
+}
+
+.border:hover{
+  background-color: black;
+  border: 1px solid black;
 }
 
 @media (max-width: 568px){
