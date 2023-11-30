@@ -59,7 +59,7 @@ const Skills = () => {
           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
-          <a href="https://nike-frontend69.onrender.com/">
+          <a href="https://rolex-v4tu.onrender.com/">
             <img src={Rolex} alt="" className="common-skill-img" />
             <h1 className="skills-header">Rolex Watch</h1>
             <div className="need-skills">
