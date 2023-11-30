@@ -5,6 +5,8 @@ import nike from "../assets/nike.png";
 import apple from "../assets/apple.png";
 import Rolex from "../assets/rolex69.png"
 import { motion } from "framer-motion";
+import github from "../assets/github.png";
+
 
 const Skills = () => {
   // const { scrollYProgress } = useScroll();
@@ -50,6 +52,12 @@ const Skills = () => {
               <h4>Node</h4>
               <h4>MongoDb</h4>
               <h4>bCrypt</h4>
+              <img
+                  src={github}
+                  alt="instagram"
+                  className="link"
+                  style={{ borderRadius: "100px" }}
+                />
             </div>
           </a>
         </motion.div>
@@ -67,6 +75,12 @@ const Skills = () => {
               <h4>Framer-Motion</h4>
               <h4>CSS</h4>
               <h4>Swiper</h4>
+              <img
+                  src={github}
+                  alt="instagram"
+                  className="link"
+                  style={{ borderRadius: "100px" }}
+                />
             </div>
           </a>
         </motion.div>
@@ -91,6 +105,12 @@ const Skills = () => {
               <h4>Node</h4>
               <h4>PostgresSql</h4>
               <h4>bCrypt</h4>
+              <img
+                  src={github}
+                  alt="instagram"
+                  className="link"
+                  style={{ borderRadius: "100px" }}
+                />
             </div>
           </a>
         </motion.div>
@@ -111,6 +131,12 @@ const Skills = () => {
           </h4> */}
             <div className="need-skills">
               <h4>React</h4>
+              <img
+                  src={github}
+                  alt="instagram"
+                  className="link"
+                  style={{ borderRadius: "100px" }}
+                />
             </div>
           </a>
         </motion.div>
