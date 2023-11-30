@@ -3,6 +3,7 @@ import "./Skills.css";
 import smartBrain from "../assets/smartbrain.png";
 import nike from "../assets/nike.png";
 import apple from "../assets/apple.png";
+import Rolex from "../assets/rolex69.png"
 import { motion } from "framer-motion";
 
 const Skills = () => {
@@ -49,6 +50,23 @@ const Skills = () => {
               <h4>Node</h4>
               <h4>MongoDb</h4>
               <h4>bCrypt</h4>
+            </div>
+          </a>
+        </motion.div>
+        <motion.div
+          className="skills-1 common-skills"
+          initial={{ opacity: 0, y: -20, filter: "blur(5px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+        >
+          <a href="https://nike-frontend69.onrender.com/">
+            <img src={Rolex} alt="" className="common-skill-img" />
+            <h1 className="skills-header">Rolex Watch</h1>
+            <div className="need-skills">
+              <h4>React</h4>
+              <h4>Framer-Motion</h4>
+              <h4>CSS</h4>
+              <h4>Swiper</h4>
             </div>
           </a>
         </motion.div>
