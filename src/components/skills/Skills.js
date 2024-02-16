@@ -35,7 +35,7 @@ const Skills = () => {
           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
-          <a href="https://nike-frontend69.onrender.com/">
+          <a href="https://task-556g.onrender.com/">
             <img src={task} alt="" className="common-skill-img" />
             <h1 className="skills-header">Task Manager</h1>
             {/* <h4>
