@@ -3,11 +3,11 @@ import "./Skills.css";
 import smartBrain from "../assets/smartbrain.png";
 import nike from "../assets/nike.png";
 import apple from "../assets/apple.png";
-import Rolex from "../assets/rolex69.png"
+import Rolex from "../assets/rolex69.png";
 import { motion } from "framer-motion";
 import github from "../assets/github.png";
 import task from "../assets/taskimg.png";
-
+import mines from "../assets/mine-portfolio1.png";
 
 const Skills = () => {
   // const { scrollYProgress } = useScroll();
@@ -35,6 +35,41 @@ const Skills = () => {
           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
+          <a href="https://mines-x3cj.onrender.com/">
+            <img src={mines} alt="" className="common-skill-img" />
+            <h1 className="skills-header">Mines Gambling Game - Play Game</h1>
+            {/* <h4>
+            Created a full-stack web application, combining React for the
+            frontend and Express.js with MongoDB for the backend. Implemented
+            user authentication by creating signup and signin forms. Utilized
+            the bcrypt password hashing algorithm with 10 salt rounds & secure..
+          </h4> */}
+            <div className="need-skills">
+              <h4>React</h4>
+              <h4>Framer Motion</h4>
+              <h4>React Spinner</h4>
+
+              <img
+                src={github}
+                alt="instagram"
+                className="link"
+                style={{ borderRadius: "100px" }}
+              />
+            </div>
+            <div className="need-skills">
+              <h4>Redux State</h4>
+              <h4>Redux ToolKit</h4>
+              <h4>React-Router-Dom</h4>
+            </div>
+          </a>
+        </motion.div>
+        {/* //! second project */}
+        <motion.div
+          className="skills-1 common-skills"
+          initial={{ opacity: 0, y: -20, filter: "blur(5px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+        >
           <a href="https://task-556g.onrender.com/">
             <img src={task} alt="" className="common-skill-img" />
             <h1 className="skills-header">Task Manager</h1>
@@ -51,11 +86,11 @@ const Skills = () => {
               <h4>MERN</h4>
 
               <img
-                  src={github}
-                  alt="instagram"
-                  className="link"
-                  style={{ borderRadius: "100px" }}
-                />
+                src={github}
+                alt="instagram"
+                className="link"
+                style={{ borderRadius: "100px" }}
+              />
             </div>
             <div className="need-skills">
               <h4>Redux State</h4>
@@ -87,11 +122,11 @@ const Skills = () => {
               <h4>MongoDb</h4>
               <h4>bCrypt</h4>
               <img
-                  src={github}
-                  alt="instagram"
-                  className="link"
-                  style={{ borderRadius: "100px" }}
-                />
+                src={github}
+                alt="instagram"
+                className="link"
+                style={{ borderRadius: "100px" }}
+              />
             </div>
           </a>
         </motion.div>
@@ -110,11 +145,11 @@ const Skills = () => {
               <h4>CSS</h4>
               <h4>Swiper</h4>
               <img
-                  src={github}
-                  alt="instagram"
-                  className="link"
-                  style={{ borderRadius: "100px" }}
-                />
+                src={github}
+                alt="instagram"
+                className="link"
+                style={{ borderRadius: "100px" }}
+              />
             </div>
           </a>
         </motion.div>
@@ -140,11 +175,11 @@ const Skills = () => {
               <h4>PostgresSql</h4>
               <h4>bCrypt</h4>
               <img
-                  src={github}
-                  alt="instagram"
-                  className="link"
-                  style={{ borderRadius: "100px" }}
-                />
+                src={github}
+                alt="instagram"
+                className="link"
+                style={{ borderRadius: "100px" }}
+              />
             </div>
           </a>
         </motion.div>
@@ -166,11 +201,11 @@ const Skills = () => {
             <div className="need-skills">
               <h4>React</h4>
               <img
-                  src={github}
-                  alt="instagram"
-                  className="link"
-                  style={{ borderRadius: "100px" }}
-                />
+                src={github}
+                alt="instagram"
+                className="link"
+                style={{ borderRadius: "100px" }}
+              />
             </div>
           </a>
         </motion.div>
