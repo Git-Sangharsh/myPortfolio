@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import smartBrain from "../assets/smartbrain.png";
+// import smartBrain from "../assets/smartbrain.png";
 import nike from "../assets/nike.png";
 import apple from "../assets/apple.png";
 import Rolex from "../assets/rolex69.png";
