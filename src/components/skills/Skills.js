@@ -37,7 +37,7 @@ const Skills = () => {
         >
           <a href="https://mines-x3cj.onrender.com/">
             <img src={mines} alt="" className="common-skill-img" />
-            <h1 className="skills-header">Mines Gambling Game - Play Game</h1>
+            <h1 className="skills-header">Winwell Gambling Platform - Play Game</h1>
             {/* <h4>
             Created a full-stack web application, combining React for the
             frontend and Express.js with MongoDB for the backend. Implemented
